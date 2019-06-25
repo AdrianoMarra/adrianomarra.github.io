@@ -1,0 +1,32 @@
+1) TCP makes sure that the message sent by a host is received by another host. 
+2) The protocol, the domain (the host), the path and the port.
+3) The protocol, the port and the index page.
+4) 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+</head>
+<body>
+</body>
+</html>
+
+5) 
+    a) Everything will be got from your machine, therefore the browser doesn't need to go to any server. 
+    b) First the browser request the IP of the host on the DNS server, after it makes a GET 
+    request to the server where the index page is, then it receives the file from that server 
+    and then render the html and also any resourse it needs to display its contents, if the 
+    resourses are in the cache of the browser it gets it from there otherwise it goes to the server 
+    where they are and get it from there.
+
+6) Because it needs to access the content of the file, when the file is locally placed 
+on my machine (local server) it is not reachable from the validator server, because my IP is private.
+
+7) the three <br /> inside a <p> tag. the <b> tags insted of <strong> 
+and the wrong place that <em> is been oppened and closed.
+
+8) By default block elements takes the whole line of the screen while inline only takes the part needed.
+9) Because tables have semantics and it should be used only to display tables. Also, we should use css for 
+styling instead, otherwise we create a complex struture without any need.
+10) Because of accessibility, we can develop applications that can use alt texts to describe the images for blind people.
