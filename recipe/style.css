@@ -26,7 +26,7 @@ header h2 {
     text-align: center;
 }
 
-h2>p, h3>p {
+h2, h3 {
     color: rgb(164, 164, 0);
     background-color: rgb(240, 240, 240);
     text-decoration: underline;
