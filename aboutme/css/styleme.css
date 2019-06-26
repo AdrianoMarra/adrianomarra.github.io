@@ -1,0 +1,30 @@
+h1 {
+    color: #2686f6b0;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+strong {
+    color: #82b440;
+}
+
+.aboutme_moods {
+    height: 400px;
+}
+
+.aboutme_moods > div {
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+
+.aboutme_moods > div > img {
+    height: 80%;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
