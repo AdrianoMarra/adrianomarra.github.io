@@ -18,10 +18,10 @@ header {
     text-align: center;
     width: 100%;
     float: right;
-    border-bottom: 1px solid;
-    background: #262626;
+    /* background: #262626; */
     position: sticky;
     z-index: 1;
+    box-shadow: 0px 7px 10px #ffffff4d;
 }
 
 header > p {
@@ -62,6 +62,10 @@ footer {
 }
 
 p {
+    font-weight: 300;
+}
+
+em {
     font-weight: 300;
 }
 
