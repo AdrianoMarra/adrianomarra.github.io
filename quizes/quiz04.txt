@@ -1,0 +1,30 @@
+        foreground | background
+first:    red           yellow
+second:   red           yellow
+third:    green         cyan         
+
+2)
+
+Relative: behaves the same as static unless you add some
+offsets to adjust its normal position. Other content will 
+not be adjusted to fit into any gap left by the element.
+
+Fixed: A fixed element is positioned relative to the viewport, which means
+it always stays in the same place even if the page is scrolled.
+
+Absolute: absolute behaves like fixed except relative to the nearest
+positioned ancestor (containing element) instead of relative to the
+viewport and when you scroll the page, it moves.
+
+3) 
+
+When we use float property is used in a element the following elements by 
+default will try to fit in any blank space left by the floating elements. 
+If you want the following elements not to fit inside the blank spots we 
+should use the clear property.
+
+4) #container {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}

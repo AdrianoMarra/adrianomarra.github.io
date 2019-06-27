@@ -1,0 +1,79 @@
+
+fieldset  {
+    border-color: #5d8cc0;
+    color: #5d8cc0;
+    width: 49%;
+    box-sizing: border-box;
+    min-height: 350px;
+    padding: 14px;
+    margin-top: 14px;
+    box-shadow: 2px 2px 5px #ffffff4d;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+input {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    padding: 7px;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #d6e9ff;
+}
+
+input[name=submit] {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    color: #d6e9ff;
+    border: 1px solid #d6e9ff;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+label {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    display: inline-block;
+    color: #d6e9ff;
+    width: 100%;
+    font-weight: 300;
+}
+
+.cc_type {
+    display: inline;
+    margin-right: 10px;
+}
+
+select {
+    background: #1d262f;
+    padding: 7px;
+    min-width: -webkit-fill-available;
+    color: gray;
+    margin-top: 10px;
+}
+
+select:focus {
+    outline: none !important;
+    border-color: #d6e9ff;
+}
+
+option:hover {
+    outline: none !important;
+    background: #d6e9ff;
+}
+
+fieldset:nth-child(odd) {
+    float: left;
+}
+
+fieldset:nth-child(even) {
+    float: right;
+}

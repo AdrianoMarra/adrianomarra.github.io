@@ -1,16 +1,3 @@
-h1 {
-    color: #14A76C;
-}
-
-h2 {
-    font-weight: 300;
-    color: #14A76C;
-}
-
-strong {
-    color: #14A76C;
-}
-
 .aboutme_moods {
     height: 400px;
 }
@@ -24,6 +11,7 @@ strong {
 
 .aboutme_moods > div > img {
     height: 80%;
+    width: 95%;
 }
 
 p::first-letter {
