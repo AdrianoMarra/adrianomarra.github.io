@@ -4,7 +4,7 @@ fieldset  {
     color: #5d8cc0;
     width: 49%;
     box-sizing: border-box;
-    min-height: 350px;
+    min-height: 400px;
     padding: 14px;
     margin-top: 14px;
     box-shadow: 2px 2px 5px #ffffff4d;
@@ -16,9 +16,10 @@ input {
     background: transparent;
     color: gray;
     border: 1px solid gray;
-    padding: 7px;
+    padding: 12px;
     width: -webkit-fill-available;
     margin-top: 10px;
+    font-size: 10pt;
 }
 
 input:focus {
@@ -54,10 +55,11 @@ label {
 
 select {
     background: #1d262f;
-    padding: 7px;
     min-width: -webkit-fill-available;
     color: gray;
     margin-top: 10px;
+    height: 40px;
+    font-size: 10pt;
 }
 
 select:focus {
@@ -76,4 +78,10 @@ fieldset:nth-child(odd) {
 
 fieldset:nth-child(even) {
     float: right;
+}
+
+textarea {
+    background: transparent;
+    width: -webkit-fill-available;
+    margin-top: 10px;
 }

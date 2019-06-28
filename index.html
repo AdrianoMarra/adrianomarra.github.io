@@ -8,48 +8,143 @@
     <title>Home</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="payment-form/form.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <p>Here will be the menu</p>
-    </header>
-
-    <aside class="home_menu">
-        <ul>
-            <li>
-                <a href="">Lab 00-D1 - Home</a>
-            </li>
-            <li>
-                <a href="aboutme">Lab 01-D1 - About Me</a>
-            </li>
-            <li>
-                <a href="recipe">HW 01-D2 - Recipe</a>
-            </li>
-            <li>
-                <a href="journal">Lab 02-D3 - Journal</a>
-            </li>
-            <li>
-                <a href="movie-review">HW 02-D3 - Movie Review</a>
-            </li>
-            <li>
-                <a href="payment-form">HW 03-D4 - Payment Form</a>
-            </li>
-        </ul>
+    <aside class="menu">
+        <button>M<br>E<br>N<br>U</button>
+        <nav>
+            <ul class="inner_menu">
+                <li>
+                    <a href="">WAP</a>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="aboutme">About Me</a>
+                        </li>
+                        <li>
+                            <a href="recipe">Recipe</a>
+                        </li>
+                        <li>
+                            <a href="journal">Journal</a>
+                        </li>
+                        <li>
+                            <a href="movie-review">Movie Review</a>
+                        </li>
+                        <li>
+                            <a href="payment-form">Payment Form</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#projects"> My Projects </a>
+                </li>
+                <li>
+                    <a href="#aboutme"> About Me </a>
+                </li>
+                <li>
+                    <a href="#contact"> Contact </a>
+                </li>
+            </ul>
+        </nav>
     </aside>
 
     <section class="home_content">
-
+        <div class="social_media">
+            <a href="mailto:contact@adrianomarra.com" id="top_email">contact@adrianomarra.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/adriano-marra/" target="_blank"><i class="fa fa-linkedin social_icon"></i></a> 
+            <a href="https://github.com/AdrianoMarra" target="_blank"><i class="fa fa-github social_icon"></i></a>
+            <a href="https://www.facebook.com/adriano.c.marra" target="_blank"><i class="fa fa-facebook social_icon"></i></a>
+        </div>
         <div class="home_content__top">
-            <img src="https://avatars2.githubusercontent.com/u/46361192?s=460&v=4" alt="Profile image.">
+            <img src="https://avatars2.githubusercontent.com/u/46361192?s=460&v=4" alt="Profile image."
+                id="profile_img">
             <h1>Adriano Cordeiro Marra</h1>
-            <em>&lt; Full-stack software developer /&gt;</em>
+            <em class="job_description">&lt; Full-stack software developer /&gt;</em>
+            <br>
+            <em class="location"><i class="fa fa-map-marker"></i> Based in Fairfield - IA,
+                USA </em>
         </div>
 
     </section>
-    <hr>
-    <section class="jobs_content">
-        <h2>My jobs...</h2>
+
+    <section id="projects">
+        <div class="container">
+            <hr>
+            <h2>My Projects</h2>
+            <article>
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a
+                type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with
+                the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus
+                PageMaker including versions of Lorem Ipsum.
+            </article>
+        </div>
+    </section>
+
+    <section id="aboutme">
+        <div class="container">
+            <hr>
+            <h2>About Me</h2>
+            <article>
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a
+                type specimen book. It has survived not only five centuries,
+                but also the leap into electronic typesetting, remaining
+                essentially unchanged. It was popularised in the 1960s with
+                the release of Letraset sheets containing Lorem Ipsum passages,
+                and more recently with desktop publishing software like Aldus
+                PageMaker including versions of Lorem Ipsum.
+            </article>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <hr>
+            <h2>Contact</h2>
+
+            <form action="#" method="post">
+                <label>
+                    Full Name:
+                    <input type="text" placeholder="" name="user_name" required>
+                </label>
+                <br>
+                <label>
+                    Email:
+                    <input type="email" placeholder="example@gmail.com" name="user_email" required>
+                </label>
+                <br>
+                <label>
+                    Tel:
+                    <input type="tel" placeholder="(000) 000-0000" name="tel" required
+                        pattern="[(][0-9]{3}[)][ ]?[0-9]{3}[-][0-9]{4}">
+                </label>
+                <br>
+
+                <label>
+                    Message:
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </label>
+
+                <br>
+
+                <input type="submit" name="submit" value="Send Message">
+            </form>
+
+        </div>
     </section>
 
     <footer>
