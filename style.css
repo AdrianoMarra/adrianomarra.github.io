@@ -248,6 +248,7 @@ section {
     text-align: right;
     position: relative;
     animation: showtop 1.5s;
+    z-index: 1;
 }
 
 #top_email {
@@ -274,4 +275,18 @@ section {
 .fa-facebook {
     text-align: center;
     margin-right: 0;
+}
+
+.scroll_effect {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+}
+
+.scroll_effect img {
+    height: 25px;
+    position: relative;
+    animation: showtop 1.5s;
 }
