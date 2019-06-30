@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     font-family: Lato;
     font-weight: 400;
-    color: #747474;
+    color: #cacaca;
     height: 100%;
 }
 
@@ -100,7 +100,7 @@ aside nav li:first-child {
     float: right;
     width: 65px;
     height: 40px;
-    color: gray;
+    color: #cacaca;
     background: transparent;
     font-size: 12pt;
     border: none;
@@ -110,7 +110,7 @@ aside nav li:first-child {
 
 a {
     text-decoration: none;
-    color: #747474;
+    color: #cacaca;
     transition-duration: 0.2s;
 }
 
@@ -228,7 +228,7 @@ input[type=submit]:hover {
 }
 
 .location {
-    color: gray;
+    color: #cacaca;
     display: inline-block;
     margin-top: 10px;
 }
@@ -259,7 +259,7 @@ section {
     font-size: 18px !important;
     margin-right: 7px;
     color: #1d262f;
-    background: gray;
+    background: #cacaca;
     padding: 4px;
     margin-top: 15px;
     display: block;

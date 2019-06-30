@@ -14,8 +14,7 @@ fieldset  {
 
 input {
     background: transparent;
-    color: gray;
-    border: 1px solid gray;
+    border: 1px solid #cacaca;
     padding: 12px;
     width: -webkit-fill-available;
     margin-top: 10px;
@@ -33,7 +32,7 @@ input[name=submit] {
     margin-left: auto;
     display: block;
     cursor: pointer;
-    color: #d6e9ff;
+    color: #cacaca;
     border: 1px solid #d6e9ff;
     font-weight: 300;
     letter-spacing: 2px;
@@ -43,7 +42,6 @@ label {
     margin-bottom: 6px;
     margin-top: 6px;
     display: inline-block;
-    color: #d6e9ff;
     width: 100%;
     font-weight: 300;
 }
@@ -84,4 +82,5 @@ textarea {
     background: transparent;
     width: -webkit-fill-available;
     margin-top: 10px;
+    border: 1px solid #cacaca;
 }
