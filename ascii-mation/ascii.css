@@ -1,0 +1,25 @@
+body {
+    background: #CCCCFF;
+    font: sans-serif 14pt bold;
+}
+
+header {
+    font: 32pt bold;
+    text-align: center;
+    margin: 0;
+}
+
+textarea {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    font:  12pt bold;
+}
+
+fieldset {
+    position: relative;
+    border: solid 5px black;
+    display: inline;
+    vertical-align: middle;
+}

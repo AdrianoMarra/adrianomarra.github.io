@@ -1,0 +1,23 @@
+1) Hoisting is the first phase where the JavaScript interpreter put the
+code in order (moves the declarations to the top) before actually running the code. 
+Don't relly on Hoisting always declare you variables and functions before using them 
+and also use let and const if you are using ES6 or "use sctrict" if using ES5.
+
+2) Window and document are JS global objects, Window refers to the entire window, 
+while document refers to the html document. Document is actually a property of window.
+
+3) the second statements booyah() is called before waiting for the 2 seconds;
+
+4) let does not include the variable to the window scope, and it prevents scope liking, and also prevents hoisting;
+
+5) const has the same scope as let, however const cannot be changed. Therefore the performance 
+of the code is better because JS does not need to check for changes on consts.
+
+6)  a) false;
+    b) false;
+    c) true;
+
+7) you can include "use sctrict" on the first line of the JS document or on the first line of function, which is 
+the best option because you prevent breaking code that already exists in other parts of the system. 
+
+8) 10

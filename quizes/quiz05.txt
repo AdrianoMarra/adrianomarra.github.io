@@ -1,0 +1,23 @@
+1) Scripting allows the interaction between the user and 
+the application, allows the the browser to execute logic without the need to go to the server.
+
+2) Because it is a interpreted language, and it runs on the client and it is single threaded.
+
+3) There is no need to define variables types or functions return types, 
+the interpreter defines it for us automatially based on a set of semantic rules.
+
+4) Yes, never trust the client. 
+
+5) Functions can be stored in a variable, object, or array. 
+Passed as an argument to a function. 
+Returned from a function.
+
+6) 13
+
+7) == only checkes the value but not its types, while === checks values and types
+
+8) undefined is the default type of anything that it is not initialized while null needs to be set.
+
+9) you can use the array api, and make use of the push and pop functions
+
+10) JavaScript can manipulate DOM objects, therefore we can use JavaScript to change anything in the DOM.
