@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">	
+		<title>ASCII Animations</title>
+		<link href="ascii.css" type="text/css" rel="stylesheet">
+		<script src="animation.js"></script>
+		<script src="ascii.js" defer="defer"></script>
+	</head>
+    <body>
+        <div class="container">
+            <h2>CSE 190 M ASCII Animation Viewer</h2>
+            <textarea id="panel" name="panel" cols="80" rows="20"></textarea>
+            <div class="controls">
+                <fieldset>
+                    <legend>Play Controls:</legend>
+                    <button id="start">Start</button> 
+                    <button id="stop" disabled>Stop</button>
+                </fieldset>
+                <fieldset>
+                    <legend>Animation:</legend>
+                    <select id="animation" name="animation">
+                        <option value="blank" selected>Blank</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="juggler">Juggler</option>
+                        <option value="bike">Bike</option>
+                        <option value="dive">Dive</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <select id="size" name="size">
+                        <option value="tiny">Tiny</option>
+                        <option value="small">Small</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="large">Large</option>
+                        <option value="XL">Extra Large</option>
+                        <option value="XXL">Extra Extra Large</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Speed:</legend>
+                    <label><input type="checkbox" id="turbo" name="turbo" /> Turbo</label>
+                </fieldset>
+            </div>
+        </div>
+        <footer>
+            <a href="https://validator.w3.org/check/referer" target="_blank">
+                <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator"/>
+            </a>
+            
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="html validator"/>
+            </a>
+
+            <a href="https://webster.cs.washington.edu/jslint/?referer">
+                <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+            </a>
+        </footer>
+    </body>
+</html>
