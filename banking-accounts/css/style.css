@@ -1,0 +1,18 @@
+
+.container{
+    width: 80%;
+    margin: 80px auto;
+}
+
+input, textarea{
+    margin: 5px auto;
+}
+footer{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	opacity: 0.8;
+}
+footer a{
+	display: block;
+}

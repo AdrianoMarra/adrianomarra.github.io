@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">	
+        <title>Banking Accounts</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/accounts.js" defer="defer"></script>
+	</head>
+    <body>
+        <div class="container">
+            <label for="accname">Account Name: </label> 
+            <input type="text" name="accname" id="accname" required />
+            <br />
+            <label for="deposit">Deposit: </label> 
+            <input type="number" name="deposit" id="deposit" required />
+            <br />
+            <button id="create" name="create">Create new Account</button>
+            <button id="delete" name="delete">Delete Last Account</button>
+            <br />
+            <br />
+            <textarea id="result" cols="80" rows="20" disabled></textarea>
+        </div>
+        <footer>
+            <a href="https://validator.w3.org/check/referer" target="_blank">
+                <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="html validator"/>
+            </a>
+            
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="html validator"/>
+            </a>
+
+            <a href="https://webster.cs.washington.edu/jslint/?referer">
+                <img src="https://webster.cs.washington.edu/w3c-js.png" alt="Valid JS" />
+            </a>
+        </footer>
+    </body>
+</html>
