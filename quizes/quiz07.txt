@@ -1,0 +1,8 @@
+1) val: function => ƒ () {return {attr: "true"}}
+   val1: Object => { attr: "true"}
+   val2: string => "true"
+
+2) 
+    a) module and x 2
+    b) yes inside the func1;
+    d) "outer1" and 10
