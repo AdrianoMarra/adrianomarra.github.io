@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    font-weight: bold;
+}
+
+textarea {
+    width: 90%;
+    font-size: 22pt;
+}
