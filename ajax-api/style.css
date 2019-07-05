@@ -2,12 +2,16 @@ h2 {
     text-align: left;
 }
 
-.posts_list {
+#users {
+    padding: 0;
+}
+
+.comments_list, .posts_list {
     display: none;
     margin-top: 20px;
 }
 
-.posts_list.active {
+.comments_list.active, .posts_list.active {
     display: block;
 }
 
@@ -21,4 +25,8 @@ li {
 .posts_list li {
     list-style: decimal;
     margin-top: 5px;
+}
+
+.comments_list li {
+    list-style: lower-roman;
 }

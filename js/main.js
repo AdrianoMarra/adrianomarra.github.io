@@ -1,16 +1,15 @@
 (function () { 
 
-    var init = function () {
+    const init = function () {
         scrollControl();
-        $(".hamburger").on('click', menuActive);
-        $(".link_menu, .mask").on('click', menuDeactivate);
+        $(".link_menu, .mask, .hamburger").on('click', menuActive);
     };
 
-    var scrollControl = function () {
+    const scrollControl = function () {
     
         var target, scroll;
     
-        $(".link_menu[href*=\\#]:not([href=\\#])").on("click", function (e) {
+        $("a[href*=\\#]:not([href=\\#])").on("click", function (e) {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
                 target = $(this);
                 scroll = ($("[id='" + target.attr("href").replace("#", "") + "']").offset().top);
@@ -49,24 +48,9 @@
     };
 
     var menuActive = function () {
-        if ($("aside").hasClass('active')) {
-            menuDeactivate();
-        } else {
-            menuActivate();
-        }
+        document.getElementsByTagName("aside")[0].classList.toggle('active');
+        document.getElementsByClassName("hamburger")[0].classList.toggle('is-active')
     }
 
-    var menuActivate = function () {
-        $("aside").addClass('active');
-        $(".hamburger").addClass('is-active');
-        // $("body").addClass('no_scroll');
-    }
-
-    var menuDeactivate = function () {
-        $("aside").removeClass('active');
-        $(".hamburger").removeClass('is-active');
-        // $("body").removeClass('no_scroll');
-    }
-
-    $(document).ready(init);
+    window.onload = init;
 })();
