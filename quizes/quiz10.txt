@@ -1,0 +1,24 @@
+1) Event handlers can accept an optional parameter to represent the event that is occurring. 
+The browser is responsible for creating it.
+
+2) StopPropagation stops the event bubbling up. 
+   StopImmediatePropagation prevents any other handlers from being executed.
+
+3)  1. prevents the default browser action, eg evt.preventDefault()
+    2. stops the event from bubbling, eg evt.stopPropagation()
+
+4) It executes calls to the server in the background (Asynchronously) so the user doesn't need to wait for the 
+server response to keep using the system. And we can update only certain parts of the DOM instead of 
+refresshing the whole page.
+
+5) The XMLHttpRequest object.
+
+6) Asynchronous.
+
+7) JSON: Data format that represents data as a set of JavaScript objects.
+It is simpler and easier to use than xml.
+
+8) The same origin policy is a security constraint on browsers that restricts
+scripts to only contact a site with the same origin.
+
+9) 
