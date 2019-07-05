@@ -1,5 +1,5 @@
 (function () {
-    const apiUrl = 'http://jsonplaceholder.typicode.com/';
+    const apiUrl = 'https://jsonplaceholder.typicode.com/';
 
     const getUsers = function () {
 
