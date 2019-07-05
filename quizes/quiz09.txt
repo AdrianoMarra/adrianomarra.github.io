@@ -1,0 +1,16 @@
+1) jQuery is JS library created to provide an interface for JS. 
+It is not another language it is still JS;
+
+2) a) call the function after window.onload.
+    b) It returns a jQuery object wrapping the DOM e.
+    c) $("div") returns an array-like object with all the div elements
+    d) $("<div>") creates a new div element, to be iserted on the DOM tree.
+
+3) refers to each element which are inside the.each() is being called.
+
+4) .css("property") returns the value of the property of the first element, while .css("property", "value") 
+sets a new value to the property of every element.
+
+5) We can call the event without attaching a function to it, so it will be triggered whenever the event is called.
+
+6) check the modifier syntax.

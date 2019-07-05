@@ -1,0 +1,24 @@
+h2 {
+    text-align: left;
+}
+
+.posts_list {
+    display: none;
+    margin-top: 20px;
+}
+
+.posts_list.active {
+    display: block;
+}
+
+li {
+    border: 1px solid;
+    padding: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.posts_list li {
+    list-style: decimal;
+    margin-top: 5px;
+}

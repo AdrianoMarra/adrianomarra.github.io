@@ -18,23 +18,14 @@ html, body {
 }
 
 header {
-    /* height: 60px; */
-    /* text-align: center; */
-    /* width: 100%; */
-    /* float: right; */
-    /* position: fixed; */
-    /* z-index: 1; */
     box-shadow: 0px 1px 10px #ffffff4d;
     background: #1d262f;
-
     display: inline-block;
-    /* float: right; */
     text-align: right;
     position: fixed;
     animation: showtop 1.5s;
     z-index: 4;
     width: 100%;
-    /* background: #2a3948; */
     padding: 20px;
     box-sizing: border-box;
 }
@@ -66,6 +57,24 @@ strong {
 
 header > p {
     margin: 20px;
+}
+
+button {
+    background: transparent;
+    padding: 6px 30px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+    color: #cacaca;
+    border: 1px solid #d6e9ff;
+    font-weight: 300;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+button:hover {
+    border-color: #14A76C;
+    color: #14A76C;
 }
 
 .mask {
