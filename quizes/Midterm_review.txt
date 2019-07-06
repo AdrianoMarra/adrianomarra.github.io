@@ -1,0 +1,49 @@
+Review for the midterm: 
+
+1. What is the difference between the Internet and the World Wide Web?
+    Internet: whole network infrastructure.
+    World Wide Web: http protocols
+
+2. Http works on top of IP. Support this statement.
+    IP => TCP => HTTP
+
+3. Can we use <div> instead of <span> and vice versa? Explain.
+    Yes, div is a block element and span is inline. However, we can change their display propperties using css.
+
+4. Why html tags like <b> and <i> are discourage in HTML 5? 
+    Because it has no semantic meaning. Screen readers can use these tags to emphasises the texts. 
+
+5. What is the use of <label> tag for html form elements.
+    For usability and accessility purposes, using label we can increase the contact area of the elements.
+
+6. What is the use of name attribute in form input elements?
+    It is used to identify the value of the input element on the server side.
+
+7. What does (.) and hash (#) in css corresponds in html?
+    . corresponds to the classes inside the tags on html and # to the id of a specific tag.
+
+10. How float and clear property works together while designing layout?
+    The next elements of a floating element will try to wrap floating element, 
+    if we want to prevent this behaviour we use the property clear.
+
+11. What are tradeoffs for choosing between GET and POST methods?
+    Use them by their meaning.
+    GET: The data is exposed on the url bar. The lenght of the characters is restricted.
+    POST: The data is not exposed on the url bar because it is sent on the 'body'. The lenght of the characters is not restricted.
+
+12. Write functions donkey1 and donkey2 so that in both cases below, an alert box comes up after 12 seconds that says “hee haw!”
+    setTimeout(donkey1(), 12000);
+    setTimeout(donkey2, 12000);
+
+15. Questions 1-4 below refer to this jQuery expression: $(".hide").click(function() { $(this).slideUp("slow"); });
+    a. What does $(".hide") return? 
+        A jQuery object that has a collection of DOM elements that has class .hide.
+    
+    b. The argument to click is
+        ii. the anonymous function itself
+
+    c. $(this) returns
+        iii. a single DOM element with 'hide' in its class string wrapped in a jQuery object
+
+    
+
