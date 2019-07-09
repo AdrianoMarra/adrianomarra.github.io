@@ -1,0 +1,23 @@
+1) It allows the server to provide assets dinamically by applying logic using Java and using Http protocol and 
+request and response bjects to serve the assets.
+
+2) Web server is the architecture that provides the basic capabilities for serving static content over HTTP protocol.
+    Servlets containers is used to actually run the servlets objects that apply the logic in Java and therefore can provide content dinamically.
+
+3) The service() in the HttpRequest class get to decide wheter doGet() or doPost() will be called based on the request objects.
+
+4) It is, but the XML has the precedence.
+
+5) Context init parameters => shared between all the servlets on the container.
+    Servlet init parameters => used only by one specific servlet.
+
+6) Only one instance will be created. But one thread for each request.
+
+7) The container creates it for us.
+
+8) Whenever you want to manage the resources (memory, database, hd space)
+
+9)  a) True
+    b) False (can be shared among the threads)
+    c) False (can be shared among the threads)
+    d) False 
