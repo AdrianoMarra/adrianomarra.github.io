@@ -1,0 +1,18 @@
+1) Session is a state management service provided by the container. 
+Stored in the server side. Cookies are stored in the client. 
+Cookies have a key and a value, the value of the cookie is the 
+session ID which is mapped to the session object in the server side.
+
+2) By default it is true.
+
+3) False they don't have any relationship
+
+4) False 
+
+5) False
+
+6) False, only request scope is thread safe
+
+7) False.
+
+8) 
