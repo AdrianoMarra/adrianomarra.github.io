@@ -1,0 +1,14 @@
+1) 
+    a. false / however the "b" variable is a private variable of "a".
+    b. false
+    c. true
+    d. true
+
+2) 
+    a. true
+    b. false / declaration sintax creates an instance variable.
+    c. true / because scriplet creates a local variable
+
+3) MVC represents the designer pattern that divides the project into 3 layers Views (JSPs), Controllers (Servlets), Models (ex: Bean classes)
+
+4) When using AJAX it is a good thing for making use of page scope.
